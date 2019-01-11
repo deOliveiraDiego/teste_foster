@@ -25,7 +25,7 @@ O JavaScript foi utilizado em duas situações:
 - **Footer**: O *footer* da página possuía, além de outros elementos, o ano descrito. Para isso, utilizou-se a função *Date* para inserir o ano corrente dentro da tag;
 - **Menu Mobile**: Em aparelhos *mobile*, os três botões são substituídos por um único botão de menu. Ao clicá-lo, você recebe os três botões novamente.
 
-- ###Adições:
+- ### Adições:
 Não foram realizadas grandes adições na page, apenas a justificação do texto dentro dos dois `articles`.
 
 ***
