@@ -1,5 +1,4 @@
 /* DEFAULT SETTINGS */
-
 * {
   margin: 0;
   padding: 0;
@@ -34,4 +33,9 @@ html, body {
 
 .center {
   justify-content: center;
+}
+
+.button {
+  text-decoration: none;
+  color: #dddddd;
 }

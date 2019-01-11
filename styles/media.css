@@ -1,18 +1,15 @@
 /* MEDIA QUERIES */
 
 /* SMARTPHONES */
-
 @media only screen and (max-width: 375px) {
   img.artigo {
     width: 48.8vw;
   }
-
   article.second img {
     width: 43.2vw;
     height: 103.2vw;
   }
 }
-
 
 @media only screen and (max-width: 767px) {
   html, body {
@@ -21,105 +18,71 @@
 }
 
 /* MEDIUM DEVICES - DESKTOPS */
-
 @media only screen and (min-width: 991px) {
   .f12 {
-		font-size: 12px;
-	}
-    
-  body {
-  	width: 989px;
-  	margin: 0 auto;
+    font-size: 12px;
   }
-
+  body {
+    width: 989px;
+    margin: 0 auto;
+  }
   div.container {
     width: 941px;
     margin: 0 24px;
   }
-
   header {
     margin-top: 24px;
   }
-
   img.logo-img {
     width: 13.99rem;
     height: 11.66rem;
   }
-
   input.search {
     width: 22.05rem;
   }
-
   button.not-large {
     display: none;
-  } 
-
-  div.menu {
-    justify-content: center;
   }
-
-  button.menu {
+  button.buttons {
     width: 307px;
     height: 40px;
-    margin: 23px 10px 10px 0;
     padding: 0;
-    margin-right: 10px;
   }
-
-  button.menu:first-child {
-    background-color: #667a82;
-  }
-
-  button.menu:last-child {
-    margin-right: 0;
-  }
-
   div.banner {
     height: 17.9549875rem;
     background-size: auto;
     margin-bottom: 52px;
   }
-
   div.banner .monitor {
     left: 38em;
     top: 1rem;
     width: 22.399375rem;
     height: 22.399375rem;
   }
-
   div.artigo {
     display: flex;
-    margin-bottom:  25px;
+    margin-bottom: 25px;
   }
-
   article.artigo {
     width: 418px;
   }
-
   article.artigo h3 {
     font-size: 16px;
   }
-
   article.artigo:first-child {
     margin-right: 25px;
   }
-
   article.artigo:last-child {
     margin-bottom: 0;
   }
-
   footer p {
     font-size: 9px;
   }
 }
 
 /* EXCEPTION - MENU */
-
-@media only screen  and (max-width: 990px) {
+@media only screen and (max-width: 990px) {
   div.menu {
-		display: none;
-  }
-  button.not-large {
-    display: inline;
+    display: none;
   }
 }
