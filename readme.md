@@ -21,9 +21,12 @@ Não foi utilizado nenhum framework.
 Pensando na responsividade da página, foi utilizado o conceito de **Mobile First** e a utilização de **Flexbox**, para maior facilidade na formatação da página. Além disso, fez-se uso da unidades de medida modernas, como `vw`, `vh`, `em` e `rem`.
 
 - ### JS e a Interação com o Usuário:
-No modelo de protótipo mobile enviado pela empresa, existia um único botão **MENU**, o que gerou certa confusão por não saber se era necessário a criação de uma interação para aparição dos demais botões (definididos no protótipo web). Por isso, não foi criada tal interação.
+O JavaScript foi utilizado em duas situações:
+- **Footer**: O *footer* da página possuía, além de outros elementos, o ano descrito. Para isso, utilizou-se a função *Date* para inserir o ano corrente dentro da tag;
+- **Menu Mobile**: Em aparelhos *mobile*, os três botões são substituídos por um único botão de menu. Ao clicá-lo, você recebe os três botões novamente.
 
-O JS foi utilizado somente na definição do ano no *footer* da página.
+- ###Adições:
+Não foram realizadas grandes adições na page, apenas a justificação do texto dentro dos dois `articles`.
 
 ***
 
