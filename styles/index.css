@@ -1,0 +1,102 @@
+/* HEADER */
+
+header {
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+img.logo-img {
+    width: 22.5882vw;
+    height: 18.8235vw;
+}
+
+div.search-box {
+    align-items: flex-end;
+}
+
+input.search {
+    width: 34.1222vw;
+    padding: .4rem;
+    border: 1px solid rgba(196, 196, 196, 0.3);
+}
+
+input.search::placeholder {
+    font-size: 11px;
+    color: #c4c4c4;
+}
+
+img.search {
+    height: 30px;
+}
+
+/* MENU */
+
+button.menu {
+    margin: 23px 0 10px 0;
+    height: 40px;
+    background-color: #3d5057;
+}
+
+button.menu a {
+    text-decoration: none;
+    color: #dddddd;
+}
+
+/* BANNER */
+
+div.banner {
+    height: 28.4329vw;
+    margin-bottom: 1rem;
+    background: url(../images/front-end.jpg) no-repeat;
+    background-size: contain;
+    resize: both;
+}
+
+img.monitor {
+    position: relative;
+    width: 35vw;
+    height: 35vw;
+    left: 58vw;
+}
+
+/* CONTEUDO */
+
+article.artigo {
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #354348;
+}
+
+img.artigo {
+    padding: 0 0 0.5rem 0.5rem;
+    float: right;
+}
+
+article.second {
+    margin-bottom: 25px;
+}
+
+.second img {
+    height: 20em;
+    float: left;
+    margin: 0 2em 0 0;
+}
+
+.second ul {
+    padding-left: 1rem;
+}
+
+/* FOOTER */
+
+footer {
+    align-items: center;
+    padding: .5rem;
+    background-color: #dddddd;
+    margin-bottom: 24px;
+    height: 44px;
+}
+
+footer p {
+    color: #6a6565;
+    text-align: center;
+}
