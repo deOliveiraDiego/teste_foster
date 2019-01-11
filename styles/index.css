@@ -63,6 +63,7 @@ img.monitor {
 
 article.artigo {
     padding: 20px;
+    text-align: justify;
     background-color: #f0f0f0;
     color: #354348;
 }

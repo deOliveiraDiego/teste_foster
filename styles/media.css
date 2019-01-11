@@ -3,6 +3,10 @@
 /* SMARTPHONES */
 
 @media only screen and (max-width: 375px) {
+  img.artigo {
+    width: 48.8vw;
+  }
+
   article.second img {
     width: 43.2vw;
     height: 103.2vw;
@@ -37,6 +41,15 @@
     margin-top: 24px;
   }
 
+  img.logo-img {
+    width: 13.99rem;
+    height: 11.66rem;
+  }
+
+  input.search {
+    width: 22.05rem;
+  }
+
   button.not-large {
     display: none;
   } 
@@ -62,14 +75,16 @@
   }
 
   div.banner {
+    height: 17.9549875rem;
     background-size: auto;
     margin-bottom: 52px;
   }
 
   div.banner .monitor {
-    width: 36vw;
-    height: 36vw;
-    left: 61vw;
+    left: 38em;
+    top: 1rem;
+    width: 22.399375rem;
+    height: 22.399375rem;
   }
 
   div.artigo {
